@@ -36,7 +36,6 @@ namespace listasDatosSimples
             else
             {
                 int numero = 0;
-
                 bool seConvirtio = int.TryParse(textBoxIngreso.Text, out numero);
                 if (seConvirtio)
                 {
